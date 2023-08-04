@@ -1,0 +1,13 @@
+{
+  "name": "@backlight-dev/cd-test.blank-lkwnntwx",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve KthBfOv8NyPOtrJcb1os --open"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
