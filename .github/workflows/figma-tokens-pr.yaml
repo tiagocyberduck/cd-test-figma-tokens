@@ -29,6 +29,6 @@ jobs:
         with:
           author_name: Tiago Tavares
           author_email: tiago@cyber-duck.co.uk
-          message: 'chore: style-dictionary output'
+          message: 'automation: style-dictionary output (figma -> CSS)'
           add: '.'
           github_token: ${{ secrets.GH_PAT }}
