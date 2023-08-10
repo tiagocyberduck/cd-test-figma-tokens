@@ -31,3 +31,4 @@ jobs:
           author_email: tiago@cyber-duck.co.uk
           message: 'chore: style-dictionary output'
           add: '.'
+          github_token: ${{ secrets.GH_PAT }}
