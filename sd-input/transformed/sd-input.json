@@ -33,7 +33,7 @@
   },
   "grayscale": {
     "black": {
-      "value": "#000002",
+      "value": "#000000",
       "type": "color"
     },
     "charcoal": {

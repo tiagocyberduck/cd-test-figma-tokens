@@ -9,7 +9,7 @@
   --figma-color-borders-dark: #00fff5;
   --figma-color-cardtext-dark: #f2f30b;
   --figma-card: 4;
-  --figma-grayscale-black: #000002;
+  --figma-grayscale-black: #000000;
   --figma-grayscale-charcoal: #4c4c4c;
   --figma-grayscale-dark: #a6a9ad;
   --figma-grayscale-metal: #cecfd2;
@@ -127,7 +127,7 @@
   --figma-border-1: 1;
   --figma-border-2: 2;
   --figma-border-4: 4;
-  --figma-cardtext-default: #000002;
+  --figma-cardtext-default: #000000;
   --figma-cardspacing-sm: 24;
   --figma-cardspacing-lg: 64;
   --figma-token-set-order-0: global;
