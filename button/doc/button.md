@@ -30,6 +30,6 @@ A set of classes implementing diffent button types with all necessary states.
 ### Neutral
 
 ```html preview-story
-<button class="btn btn-neutral">Neutral</button>
-<button class="btn btn-neutral" disabled>Disabled</button>
+<button class="btn btn-secondary">Neutral</button>
+<button class="btn btn-secondary" disabled>Disabled</button>
 ```
