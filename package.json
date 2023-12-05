@@ -11,5 +11,11 @@
   "devDependencies": {
     "style-dictionary": "^3.8.0",
     "token-transformer": "^0.0.33"
+  },
+  "dependencies": {
+    ,
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
   }
 }
