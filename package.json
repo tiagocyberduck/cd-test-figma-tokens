@@ -1,22 +1,15 @@
 {
-  "name": "@backlight-dev/cd-test.blank-lkwnntwx",
+  "name": "@backlight-dev/cd-test.sass-lpsf5n2n",
   "version": "0.0.0",
-  "description": "",
+  "description": "Sass Starter Kit for Backlight.dev",
   "license": "MIT",
   "type": "module",
   "homepage": "{{ homepage }}",
   "scripts": {
-    "serve": "npx backlight@latest serve KthBfOv8NyPOtrJcb1os --open"
-  },
-  "devDependencies": {
-    "style-dictionary": "^3.8.0",
-    "token-transformer": "^0.0.33"
+    "serve": "npx backlight@latest serve FhwG0WxdImhICHF6tDMi --open"
   },
   "dependencies": {
-    "@divriots/dockit-react": "^0.1.0",
-    "@mdx-js/react": "^3.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "@divriots/dockit-core": "^0.7.2",
+    "lit": "^2.2.0"
   }
 }

@@ -1,39 +1,12 @@
 {
- "packages": {
-  "dir": "",
-  "menu": [
-   [
-    "TOKENS",
-    [
-     "tokens"
+  "packages": {
+    "dir": "",
+    "menu": [
+      "introduction",
+      ["tokens", ["breakpoints", "colors"]],
+      ["mixins", ["a11y-mixins", "text-mixins"]],
+      ["components", ["button"]],
+      ["infrastructure", ["doc-layout"]]
     ]
-   ],
-   [
-    "ATOMS",
-    [
-     "button",
-     "typography"
-    ]
-   ],
-   [
-    "MOLECULES",
-    [
-     "header"
-    ]
-   ],
-   [
-    "INFRASTRUCTURE",
-    [
-     "sd-input"
-    ]
-   ],
-   "button"
-  ]
- },
- "dependencies": {
-  "autoInstall": false
- },
- "doc": {
-  "markdownEngine": "mdjs"
- }
+  }
 }
