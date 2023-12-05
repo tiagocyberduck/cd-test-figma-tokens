@@ -1667,5 +1667,7 @@
   --figma-text-case-none: none;
   --figma-text-decoration-none: none;
   --figma-paragraph-indent-0: 0px;
+  --figma-border-radius-large: 12px;
+  --figma-border-radius-small: 4px;
   --figma-token-set-order-0: Frames X v1.7;
 }

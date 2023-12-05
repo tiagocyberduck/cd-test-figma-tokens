@@ -7033,6 +7033,14 @@
       "type": "dimension"
     }
   },
+  "border-radius-large": {
+    "value": "12px",
+    "type": "borderRadius"
+  },
+  "border-radius-small": {
+    "value": "4px",
+    "type": "borderRadius"
+  },
   "tokenSetOrder": {
     "0": {
       "value": "Frames X v1.7",
