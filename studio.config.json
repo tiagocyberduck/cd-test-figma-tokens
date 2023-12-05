@@ -16,6 +16,12 @@
     ]
    ],
    [
+    "MOLECULES",
+    [
+     "header"
+    ]
+   ],
+   [
     "INFRASTRUCTURE",
     [
      "sd-input"
