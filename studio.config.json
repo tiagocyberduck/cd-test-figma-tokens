@@ -9,9 +9,10 @@
     ]
    ],
    [
-    "COMPONENTS",
+    "ATOMS",
     [
-     "button"
+     "button",
+     "typography"
     ]
    ],
    [
