@@ -5,7 +5,7 @@
       "introduction",
       ["tokens", ["breakpoints", "colors"]],
       ["mixins", ["a11y-mixins", "text-mixins"]],
-      ["components", ["button"]],
+      ["components", ["button", "typography"]],
       ["infrastructure", ["doc-layout"]]
     ]
   }

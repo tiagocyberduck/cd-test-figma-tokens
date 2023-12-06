@@ -1,0 +1,58 @@
+@use '../../tokens/variables.css';
+
+:root {
+  --font-family-body: var();
+  --font-family-heading: var();
+
+  font-family: var(--font-family-body);
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, h4, h5 {
+  font-family: var(--font-family-heading);
+}
+
+h1, .h1 {
+
+}
+
+h2, .h2 {
+
+}
+
+h3, .h3 {
+
+}
+
+h4, .h4 {
+
+}
+
+.-italic, em {
+
+}
+
+.-bold, strong {
+
+}
+
+ul, ol {
+
+
+  &.-list-reset {
+    list-style: none;
+  }
+}
+
+.-align-center {
+  text-align: center;
+}
+
+.-align-right {
+  text-align: right;
+}
+
+.-align-left {
+  text-align: left;
+}
+
+

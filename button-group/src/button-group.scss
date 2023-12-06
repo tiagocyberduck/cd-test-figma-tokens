@@ -1,0 +1,90 @@
+@use '../../tokens/variables.css';
+
+:root {
+  --color-accent-fill-base: var(--figma-primary-blue-600-light);
+  --color-accent-fill-hover: var(--figma-primary-blue-500-light);
+  --color-accent-fill-active: var(--figma-primary-blue-400-light);
+  --color-accent-fill-disabled: var(--figma-base-300-light);
+  --color-text-on-accent-base: var(--figma-base-00-light-primary);
+  --color-text-on-accent-disabled: var(--figma-base-400-light);
+
+  --color-neutral-fill-base: var(--figma-base-100-light);
+  --color-neutral-fill-hover: var(--figma-base-200-light);
+  --color-neutral-fill-active: var(--figma-base-200-light);
+  --color-neutral-fill-disabled: var(--figma-base-300-light);
+  --color-text-on-neutral-base: var(--figma-base-900-light);
+  --color-text-on-neutral-disabled: var(--figma-base-400-light);
+
+  --color-focus-ring: var(--figma-primary-blue-400-light);
+
+  --button-size-small: var(--figma-font-size-1);
+  --button-size-medium: var(--figma-font-size-2);
+  --button-size-large: var(--figma-font-size-3);
+  --button-size-xlarge: var(--figma-font-size-4);
+}
+
+.btn {
+  background-color: var(--color-accent-fill-base);
+  color: var(--color-text-on-accent-base);
+  padding: 0.75rem 1rem;
+  // border-radius: var(--figma-border-radius-large);
+  border-radius: 12px;
+  border: 1px solid transparent;
+  outline: 4px solid transparent;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0.125rem solid var(--color-focus-ring);
+    outline-offset: 0.0625rem;
+  }
+
+  &:hover {
+    background-color: var(--color-accent-fill-hover);
+  }
+
+  &:active {
+    background-color: var(--color-accent-fill-active);
+    outline-color: var(--color-accent-fill-active);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: var(--color-accent-fill-disabled);
+    color: var(--color-text-on-accent-disabled);
+  }
+
+  &--secondary {
+    background-color: var(--color-neutral-fill-base);
+    color: var(--color-text-on-neutral-base);
+    border-color: var(--figma-base-200-light);
+
+    &:hover {
+      background-color: var(--color-neutral-fill-hover);
+      border-color: var(--figma-base-600-light);
+    }
+
+    &:active {
+      // background-color: var(--color-neutral-fill-active);
+      background-color: transparent;
+      border-color: transparent;
+    }
+
+    &:disabled {
+      background-color: var(--color-accent-fill-disabled);
+      border-color: transparent;
+    }
+  }
+
+  &--small {
+    font-size: 12px;
+  }
+
+  &--large {
+    font-size: 20px;
+  }
+
+  &--xlarge {
+    font-size: 20px;
+  }
+}

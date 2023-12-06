@@ -25,7 +25,7 @@ export const docLayoutTemplate = (content, context) => html`
     }
   </style>
   <dockit-layout
-    disable-color-scheme-change
+    // disable-color-scheme-change
     initial-color-scheme="light"
     .context="${context}"
   >
