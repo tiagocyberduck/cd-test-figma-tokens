@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@divriots/dockit-core": "^0.7.2",
-    "lit": "^2.2.0"
+    "lit": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
   }
 }
